@@ -1,0 +1,22 @@
+1. How does the internet work?
+    - The internet is a huge network of computers that can communicate with each other. For computers to 
+    have the ability to communicate with each other, we connect them via routers (which are 
+    another type of computer). A routers purpose is to deliver data from point A to point B
+    i.e., one computer to another. To manage the entirety of the worlds computers, a router servicing
+    a number of computers must connect to another doing the same. Routers are then connected to modems,
+    which translate info from our network of computers into readable info digested by the telephone
+    infrastructure. Modems then are connected to an ISP who utilize another kind of router that can 
+    communicate with the routers of other ISPs. From there, to communicate with other computers, you need 
+    to identify the IP address of the desired destination computer. Any computer connected to a network 
+    carries a unique IP address. 
+
+
+
+2. What happens when you click on a link?
+    -Your browser needs to figure out where you've clicked, by first sorting through your local DNS cache
+    to see if the links domain name is held there. If the domain name is not found in the local cache, 
+    it will then sort through your local routers DNS. If still not found, the browser checks the ISPs 
+    DNS for the domain name. If that comes up empty, the browser will finally consult with the Root
+    DNS servers via the internet to locate the domain name. The IP address of that domain name is then
+    returned to your browser, where that IP is requested through the web. The request lands you on the 
+    links server.
